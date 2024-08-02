@@ -27,3 +27,21 @@ let isLoggedIn = 1
 let boolenLogedIn = Boolean(isLoggedIn);
 console.log(boolenLogedIn);
 //1 => true, 0 => false
+
+//****************operations****************** */
+//basics
+console.log(2+3);
+console.log(2-3);
+console.log(2*3);
+console.log(2/3);
+console.log(2**3);
+
+console.log("1"+2);
+console.log("1"+2+2);
+console.log(1+2+"2");
+
+let score = 10;
+score++;
+console.log(score);
+++score;
+console.log(score);
