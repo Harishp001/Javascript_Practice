@@ -24,12 +24,51 @@ console.log(id === anotherId);
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-    name: "hitesh",
+    name: "harish",
     age: 22,
 }
+console.log(myObj.name);
+
 
 const myFunction = function(){
     console.log("Hello world");
 }
 
 console.log(typeof anotherId);
+
+
+//stack and heap 
+
+
+//stack
+//in stack we get copy of original value if we change it then it does not affect original because it id the copy og original
+
+let userName = "Harish"
+let newUserName = userName
+
+newUserName = "Patil"
+
+console.log(userName);
+console.log(newUserName);
+
+
+
+
+//heap
+//in heap we get original reference value so if we change it then original also change
+
+let myObj2 = {
+    nameOfUser : "harish",
+    ageOfUser : 21
+}
+
+let myObj3 = myObj2
+
+myObj3.ageOfUser = 23
+
+console.log(myObj2);
+console.log(myObj3);
+
+
+
+
